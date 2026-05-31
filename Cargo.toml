@@ -1,0 +1,16 @@
+[package]
+name = "chat_srv"
+version = "0.6.9"
+edition = "2024"
+authors = ["Artur Gwoździowski"]
+
+[dependencies]
+anyhow = "1.0.102"
+futures-channel = "0.3.32"
+futures-util = "0.3.32"
+#shuttle-runtime = "0.57.0"
+tokio = { version = "1.52.3", features = ["full"] }
+tokio-tungstenite = "0.29.0"
+
+[build-dependencies]
+embed-resource = "3.0.9"
